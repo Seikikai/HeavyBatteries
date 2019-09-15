@@ -8,43 +8,79 @@
 
   Because Bigger Is Better...Store Massive Amounts Of Power In These H-Sized Batteries.
 
-Heavy Battery:
-Huge Version Of The Jumbo Battery!
-
-Capacity: 320,000 Joules
-Power Runoff: 1,600 Joules / Cycle
-Heat: +2,500 DTUs
-Cost: 800u Raw Ores
 
 
-Heavy Smart Battery:
-Huge Version Of The Smart Battery!
-
-Capacity: 160,000 Joules
-Power Runoff: 800 Joules / Cycle
-Heat: +800 DTUs
-Cost: 650u Refined Ores
 
 
-Emergency Battery:
-Special Battery That Doesn't Lose Charge Over Time But Requires Twice The Energy That Other Batteries.
+|     Name      | Description                        |
+| :-----------: | ---------------------------------- |
+| Heavy Battery | Huge Version Of The Jumbo Battery! |
 
-Capacity: 25,000 Joules
-Power Runoff: 0 Joules / Cycle
-Heat: +0 DTUs (Why? Because Thermodynamics)
-Cost: 700u Refined Ores, 200 Insulation, 150 Ceramic
+| Building Information | 3              |
+| -------------------- | -------------- |
+| Capacity             | 320,000 Joules |
+| Power Runoff         | 1,600 J/cycle  |
+| Heat                 | +2,500 DTUs    |
+| Cost                 | 800 Raw Ore    |
 
-Mini Emergency Battery:
-Coming Soon...
+--------------------
+
+|        Name         | Desc                               |
+| :-----------------: | ---------------------------------- |
+| Heavy Smart Battery | Huge Version Of The Smart Battery! |
+
+| Building Information | 3               |
+| -------------------- | --------------- |
+| Capacity             | 160,000 Joules  |
+| Power Runoff         | 800 J/cycle     |
+| Heat                 | +800 DTUs       |
+| Cost                 | 650 Refined Ore |
+
+--------------------
+
+|       Name        | Description                                                  |
+| :---------------: | ------------------------------------------------------------ |
+| Emergency Battery | Special Battery That Doesn't Lose Charge Over Time But Requires Twice The Energy That Other Batteries. |
+
+| Building Information | 3                                                    |
+| -------------------- | ---------------------------------------------------- |
+| Capacity             | 25,000 Joules                                        |
+| Power Runoff         | 0 J/cycle                                            |
+| Heat                 | +0 DTUs <u>(Why? Because Thermodynamics)</u>         |
+| Cost                 | 700 Refined Ore<br />200 Insulation<br />150 Ceramic |
+
+--------
+
+|       Name       | Description                                                  |
+| :--------------: | ------------------------------------------------------------ |
+| Huge Transformer | Huge Transformer That Can Store Massive Amounts Of Power And Can Be Used To Cook Eggs Too! |
+
+| Building Information | 3                                                          |
+| -------------------- | ---------------------------------------------------------- |
+| Capacity             | 25,000 Joules                                              |
+| Power Runoff         | 0 J/cycle                                                  |
+| Heat                 | +0 DTUs <u>(Why? Because Thermodynamics)</u>               |
+| Cost                 | 600u Refined Ores <br />100 Copper Ore<br />100 Insulation |
+
+
+
+
+
+
+
+##### Coming Soon...
+
+Mini Emergency Battery
 
 Heavy Transformer:
 Huge Transformer That Can Store Massive Amounts Of Power And Can Be Used To Cook Eggs Too!
 
-Capacity: 24,000 Joules
-Heat: +5000 DTUs
-Cost: 600u Refined Ores, 100 Copper Ore, 100 Insulation
 
-Unlocking All Batteries Requires Computing Research.  
+**How to find these batteries in-game:**
+
+*Unlocking All Batteries Requires Computing Research.*  
+
+*Check the "Power" building tab after completing Computing Research*
 
 \-------------------------------------------------------------------------------------------------------------------------------------------
 
