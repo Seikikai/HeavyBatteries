@@ -16,7 +16,7 @@
 | :-----------: | ---------------------------------- |
 | Heavy Battery | Huge Version Of The Jumbo Battery! |
 
-| Building Information | 3              |
+| Building Information | Units          |
 | -------------------- | -------------- |
 | Capacity             | 320,000 Joules |
 | Power Runoff         | 1,600 J/cycle  |
@@ -25,11 +25,11 @@
 
 --------------------
 
-|        Name         | Desc                               |
+|        Name         | Description                        |
 | :-----------------: | ---------------------------------- |
 | Heavy Smart Battery | Huge Version Of The Smart Battery! |
 
-| Building Information | 3               |
+| Building Information | Units           |
 | -------------------- | --------------- |
 | Capacity             | 160,000 Joules  |
 | Power Runoff         | 800 J/cycle     |
@@ -42,7 +42,7 @@
 | :---------------: | ------------------------------------------------------------ |
 | Emergency Battery | Special Battery That Doesn't Lose Charge Over Time But Requires Twice The Energy That Other Batteries. |
 
-| Building Information | 3                                                    |
+| Building Information | Units                                                |
 | -------------------- | ---------------------------------------------------- |
 | Capacity             | 25,000 Joules                                        |
 | Power Runoff         | 0 J/cycle                                            |
@@ -55,7 +55,7 @@
 | :--------------: | ------------------------------------------------------------ |
 | Huge Transformer | Huge Transformer That Can Store Massive Amounts Of Power And Can Be Used To Cook Eggs Too! |
 
-| Building Information | 3                                                          |
+| Building Information | Units                                                      |
 | -------------------- | ---------------------------------------------------------- |
 | Capacity             | 25,000 Joules                                              |
 | Power Runoff         | 0 J/cycle                                                  |
