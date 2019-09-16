@@ -15,7 +15,6 @@
 |     Name      | Description                        |
 | :-----------: | ---------------------------------- |
 | Heavy Battery | Huge Version Of The Jumbo Battery! |
-
 | Building Information | Units          |
 | -------------------- | -------------- |
 | Capacity             | 320,000 Joules |
