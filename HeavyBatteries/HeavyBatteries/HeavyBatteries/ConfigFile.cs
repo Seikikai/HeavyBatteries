@@ -37,15 +37,22 @@ namespace HeavyBatteriesMod
 		public int heavyBatteryCost { get; set; } = 800;
 		public double heavyBatterySelfHeat { get; set; } = 0.5;
 		public double heavyBatteryHeatExhaust { get; set; } = 2.0;
-		public int heavyBatteryCapacity { get; set; } = 320000;
+        		public int heavyBatteryCapacity { get; set; } = 320000;
+
+
 		public int heavySmartBatteryCost { get; set; } = 650;
 		public double heavySmartBatterySelfHeat { get; set; } = 0.0;
 		public double heavySmartBatteryHeatExhaust { get; set; } = 0.8;
 		public int heavySmartBatteryCapacity { get; set; } = 160000;
+
 		public bool emergencyBatteryEnabled { get; set; } = true;
+
+
 		public int emergencyBatteryCostM { get; set; } = 700;
 		public int emergencyBatteryCostI { get; set; } = 200;
 		public int emergencyBatteryCostC { get; set; } = 150;
+
+
 		public int emergencyBatteryCapacity { get; set; } = 25000;
 		public int heavyTransformerCostM { get; set; } = 600;
 		public int heavyTransformerCostC { get; set; } = 100;
