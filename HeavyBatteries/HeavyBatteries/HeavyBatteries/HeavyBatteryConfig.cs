@@ -34,7 +34,7 @@ namespace HeavyBatteriesMod
 		{
 			Battery battery = go.AddOrGet<Battery>();
 			battery.capacity = ConfigFile.config.heavyBatteryCapacity;
-			battery.joulesLostPerSecond = battery.capacity * 0.005f / 600f;
+			battery.joulesLostPerSecond = battery.capacity * 0.0055f / 600f;
 			base.DoPostConfigureComplete(go);
 		}
 
