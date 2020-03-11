@@ -78,14 +78,23 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Config.json" />
-    <None Include="packages.config" />
+    <Resource Include="Config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>"$(TargetDir)$(TargetFileName)"
+    <PostBuildEvent>@echo Moving dll to release folder
+echo F | xcopy /Y /S /R /Q "$(TargetDir)$(TargetName).dll" "$(ProjectDir).\ModRelease\$(TargetName)\$(TargetName).dll"
 
-xcopy "$(TargetDir.TrimEnd('\'))" "%25USERPROFILE%25\Documents\Klei\OxygenNotIncluded\mods\dev\$(ProjectName)" /Y /S /E /I
-</PostBuildEvent>
+@echo "Moving Config to release folder"
+if exist "$(ProjectDir)Config.json" echo F | xcopy /Y /S /R /Q "$(ProjectDir)Config.json" "$(ProjectDir).\ModRelease\$(TargetName)\Config.json"
+
+@echo "about to move Release to  Klei Mods folder"
+xcopy "$(ProjectDir).\ModRelease\$(TargetName)" "%25USERPROFILE%25\Documents\Klei\OxygenNotIncluded\mods\dev\$(TargetName)" /Y /R /I /E</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
   </PropertyGroup>
 </Project>
