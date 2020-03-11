@@ -1,6 +1,6 @@
 # Seikikai's Workshop Mods Revival
 
-## Due to the inability to upload to steam, please see https://github.com/Volmancer/HeavyBatteries/tree/innovationUpdate/HeavyBatteries/Release/HeavyBatteries 
+## Due to the inability to upload to steam, please see https://github.com/Seikikai/HeavyBatteries/tree/master/HeavyBatteries/Release/HeavyBatteries
 to download the mod. Place it in /Documents/Klei/mods/dev and start the game
 
 #### Mod: Heavy Batteries
